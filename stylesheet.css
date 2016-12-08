@@ -1,0 +1,149 @@
+/** {
+  box-sizing: border-box;
+}*/
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #2a7557;
+  /*background-image: linear-gradient(to bottom, #2a7557, #77ae98);*/
+  /*background-image: url("images/greenground.JPG");*/
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  /*font-weight: 600;*/
+  /*font-family: 'Lora', serif;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*border-color: red;
+  border-style: solid;*/
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: white;
+}
+
+.middle {
+  text-align: center;
+}
+
+.middle p {
+  font-size: 4em;
+  margin: 20px 0;
+}
+
+.middle ul {
+  padding: 0;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+}
+
+.header {
+  justify-content: center;
+  border-color: black;
+}
+
+.footer {
+  /*background-color: #2a7557;
+  color: black;*/
+  /*width: 100%;*/
+  margin-top: 10px;
+  justify-content: center;
+  border-color: black;
+}
+
+.footer li {
+  display: inline;
+}
+
+.footer li a:link, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.profilePic {
+  border-radius: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+.twitterIcon {
+  /*color: lightblue;*/
+  color: white;
+  font-size: 2em;
+  padding-right: 3px;
+  /*float: right;*/
+  order: 2;
+}
+
+.githubIcon {
+  /*color: black;*/
+  color: white;
+  font-size: 2em;
+  padding-right: 3px;
+  /*float: right;*/
+  order: 3;
+}
+
+.linkedInIcon {
+  /*color: #0077b5;*/
+  color: white;
+  font-size: 2em;
+  padding-right: 3px;
+  /*float: right;*/
+  order: 4;
+}
+
+/*.menu {
+  background-color: #77ae98;
+  color: black;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  justify-content: center;
+  font-size: 1.5em;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: blue;
+}*/
+
+/*ul {
+  padding: 0;
+  font-size: .7em;
+}*/
+
+/*.menu p, li{
+  width: 100%;
+  text-align: center;
+  list-style: none;
+}*/
+
+/*.column {
+  background-color: #2a7557;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+
+}
+
+.column p {
+  margin: auto 16px;
+}
+
+.column h1, h5 {
+  margin: 5px 16px;
+  text-align: center;
+}*/
