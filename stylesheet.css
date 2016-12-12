@@ -138,6 +138,10 @@ a:link, a:visited {
   color: inherit;
 }
 
+a:hover {
+  color: black;
+}
+
 .profilePic {
   border-radius: 100px;
   width: 100px;
@@ -234,7 +238,7 @@ ul {
 
 .column {
   background-color: #2a7557;
-  width: 300px;
+  width: 30%;
   height: 500px;
   /*border-radius: 20px;
   border-style: solid;
@@ -249,6 +253,10 @@ ul {
   margin: auto 16px;
 }
 
+.column p:nth-of-type(2) {
+  text-align: center;
+}
+
 .column h1, h5 {
   margin: 5px 16px;
   text-align: center;
@@ -256,7 +264,7 @@ ul {
 
 .projectPics {
   border-radius: 10px;
-  width: 280px;
-  height: 250px;
+  width: 320px;
+  height: 160px;
   margin: auto;
 }
