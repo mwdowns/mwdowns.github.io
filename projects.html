@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Matthew Downs</title>
+    <title>Matthew Downs - Projects</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Rajdhani" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -11,11 +11,13 @@
   </head>
   <body>
 
-    <style>
+  <style>
+    @media (min-width: 768px) {
       body {
         height: 100%;
       }
-    </style>
+    }
+  </style>
 
     <div class="bodyDiv">
       <div class="container">
@@ -27,26 +29,37 @@
       </div>
 
       <div class="container">
-        <div class="middle">
-          <p>Matthew Downs</p>
-          <ul>
-            <li><a href="projects.html">Student at DigitalCrafts</a></li>
-            <li><a href="about.html">Ex-Rice Farmer</a></li>
-            <li><a href="scribbles.html">Hack Poet</a></li>
-          </ul>
+        <div class="column">
+          <h1>Get Cohort</h1>
+          <p>An application for code schools to use to show off their students to employers. Uses Python, Flask, PostreSQL, Jinja, HTML, and CSS.</p>
+          <p><a href="https://github.com/DigitalCrafts-September-2016-Cohort/GetCohort">Link to GitHub repo</a>.</p>
+          <img class="projectPics" src="images/getCohort.png" alt="screenshot of readme.md">
+        </div>
+        <div class="column">
+          <h1>Simple Memory</h1>
+          <p>A simple memory game using Angular.js, HTML, and CSS. Simple. Elegant.</p>
+          <p><a href="https://github.com/mwdowns/AngularMemory">Link to GitHub repo</a>.</p>
+          <img class="projectPics" src="images/memory.png" alt="screenshot of readme.md">
+        </div>
+        <div class="column">
+          <h1>Cope</h1>
+          <p>A chat app for when you just need to talk to someone. Uses Node.js, Angular.js, Express, Socket.io, HTML, and CSS.</p>
+          <p><a href="https://github.com/DC-Cope/Group-project-2">Link to GitHub repo</a>.</p>
+          <img class="projectPics" src="images/cope.png" alt="screenshot of readme.md">
         </div>
       </div>
 
       <div class="container">
         <div class="footer">
           <ul>
-            <li><a href="projects.html">Projects</a> | </li>
+            <li><a href="index.html">Home</a> | </li>
             <li><a href="about.html">About / Resume</a> | </li>
             <li><a href="scribbles.html">Scribbles</a></li>
           </ul>
         </div>
       </div>
     </div>
+
     <script>
       $( "#header" )
         .on("mouseenter", function() {
@@ -56,5 +69,6 @@
           $("#header").addClass('fadeOut');
         });
     </script>
+
   </body>
 </html>

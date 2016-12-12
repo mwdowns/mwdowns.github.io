@@ -1,4 +1,5 @@
-# MyPage
-My personal webpage
+### My Personal Website Portfolio
 
-A personal webpage for me. I assume that the better I get with design the better it will look.
+If you're here reading the readme, Weclome! Though I do wonder why you're here and not reading the actual page.
+
+Maybe it's because you want me to explain why it's such a plain page.
