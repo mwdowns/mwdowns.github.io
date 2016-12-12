@@ -3,39 +3,58 @@
   <head>
     <meta charset="utf-8">
     <title>Matthew Downs</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Rajdhani" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-          <a href="http://www.twitter.com/mwdowns"><i class="fa fa-twitter-square twitterIcon" aria-hidden="true"></i></a>
-          <a href="http://github.com/mwdowns"><i class="fa fa-github githubIcon" aria-hidden="true"></i></a>
-          <a href="http://www.linkedin.com/in/mwdowns"><i class="fa fa-linkedin-square linkedInIcon" aria-hidden="true"></i></a>
-      </div>
-    </div>
 
-    <div class="container">
-      <div class="middle">
-        <p>Matthew Downs</p>
-        <ul>
-          <li>Student at DigitalCrafts</li>
-          <li>Ex-Rice Farmer</li>
-          <li>Hack Poet</li>
-        </ul>
-      </div>
-    </div>
+    <style>
+      body {
+        height: 100%;
+      }
+    </style>
 
-    <div class="container">
-      <div class="footer">
-        <ul>
-          <li><a href="/projects.html">Projects</a> | </li>
-          <li><a href="/resume.html">Resume</a> | </li>
-          <li><a href="/scribbles.html">Scribbles</a></li>
-        </ul>
+    <div class="bodyDiv">
+      <div class="container">
+        <div id="header" class="fadeOut">
+            <a href="http://www.twitter.com/mwdowns"><i class="fa fa-twitter-square twitterIcon icon" aria-hidden="true"></i></a>
+            <a href="http://github.com/mwdowns"><i class="fa fa-github githubIcon icon" aria-hidden="true"></i></a>
+            <a href="http://www.linkedin.com/in/mwdowns"><i class="fa fa-linkedin-square linkedInIcon icon" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="middle">
+          <p>Matthew Downs</p>
+          <ul>
+            <li><a href="projects.html">Student at DigitalCrafts</a></li>
+            <li><a href="resume.html">Ex-Rice Farmer</a></li>
+            <li><a href="scribbles.html">Hack Poet</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="footer">
+          <ul>
+            <li><a href="/projects.html">Projects</a> | </li>
+            <li><a href="resume.html">Resume</a> | </li>
+            <li><a href="/scribbles.html">Scribbles</a></li>
+          </ul>
+        </div>
       </div>
     </div>
+    <script>
+      $( "#header" )
+        .on("mouseenter", function() {
+          $("#header").removeClass('fadeOut');
+        })
+        .on("mouseleave", function() {
+          $("#header").addClass('fadeOut');
+        });
+    </script>
   </body>
 </html>

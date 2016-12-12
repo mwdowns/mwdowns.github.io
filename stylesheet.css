@@ -8,18 +8,22 @@ html {
 
 body {
   background-color: #2a7557;
-  /*background-image: linear-gradient(to bottom, #2a7557, #77ae98);*/
-  /*background-image: url("images/greenground.JPG");*/
-  background-repeat: no-repeat;
   color: white;
   font-family: 'Rajdhani', sans-serif;
-  /*font-weight: 600;*/
-  /*font-family: 'Lora', serif;*/
+  /*display: flex;
+  flex-direction: column;
+  justify-content: space-between;*/
+  /*height: 100%;*/
+  margin: 0;
+}
+
+.bodyDiv {
+  background-color: #2a7557;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /*border-color: red;
-  border-style: solid;*/
   height: 100%;
   margin: 0;
 }
@@ -28,9 +32,34 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  border-radius: 20px;
+  /*border-radius: 20px;
   border-style: solid;
-  border-color: white;
+  border-color: white;*/
+}
+
+.resume-bodyDiv {
+  background-color: #2a7557;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0;
+}
+
+.resume-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  /*border-radius: 20px;
+  border-style: solid;
+  border-color: white;*/
+}
+
+.skills {
+  text-align: center;
+  width: 100%;
 }
 
 .middle {
@@ -49,9 +78,46 @@ body {
   list-style: none;
 }
 
-.header {
+#header {
+  /*width: 100%;*/
   justify-content: center;
-  border-color: black;
+  /*border-color: black;
+  border-style: solid;*/
+  /*-webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;*/
+  /*-webkit-opacity: 0.25;
+  -moz-opacity: 0.25;
+  opacity: 0.25;*/
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+@media (max-width: 768px) {
+
+  .fadeOut {
+    animation-name: none;
+  }
+
 }
 
 .footer {
@@ -67,7 +133,7 @@ body {
   display: inline;
 }
 
-.footer li a:link, a:visited {
+a:link, a:visited {
   text-decoration: none;
   color: inherit;
 }
@@ -80,29 +146,46 @@ body {
 
 .twitterIcon {
   /*color: lightblue;*/
-  color: white;
-  font-size: 2em;
-  padding-right: 3px;
-  /*float: right;*/
   order: 2;
 }
 
 .githubIcon {
   /*color: black;*/
-  color: white;
-  font-size: 2em;
-  padding-right: 3px;
-  /*float: right;*/
   order: 3;
 }
 
 .linkedInIcon {
   /*color: #0077b5;*/
+  order: 4;
+}
+
+.icon {
   color: white;
   font-size: 2em;
   padding-right: 3px;
-  /*float: right;*/
-  order: 4;
+}
+
+.resume-icon {
+  color: white;
+  font-size: 4em;
+}
+
+.flask {
+  height: 62px;
+  width: 62px;
+}
+
+.scala {
+  height: 70px;
+  width: 70px;
+}
+
+.intro {
+  width: 50%;
+}
+
+.pdf {
+  color: red;
 }
 
 /*.menu {
