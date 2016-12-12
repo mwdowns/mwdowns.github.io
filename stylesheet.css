@@ -193,6 +193,21 @@ a:link, a:visited {
   margin-right: 5%;
 }
 
+.separator {
+  font-size: 1.5em;
+}
+
+.blogs {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.poem {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
 /*.menu {
   background-color: #77ae98;
   color: black;
