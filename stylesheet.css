@@ -32,9 +32,9 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  border-radius: 20px;
+  /*border-radius: 20px;
   border-style: solid;
-  border-color: white;
+  border-color: white;*/
 }
 
 .resume-bodyDiv {
@@ -126,7 +126,7 @@ body {
   /*width: 100%;*/
   margin-top: 10px;
   justify-content: center;
-  border-color: black;
+  /*border-color: black;*/
 }
 
 .footer li {
@@ -245,9 +245,9 @@ ul {
   background-color: #2a7557;
   width: 30%;
   height: 500px;
-  border-radius: 20px;
+  /*border-radius: 20px;
   border-style: solid;
-  border-color: black;
+  border-color: black;*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
