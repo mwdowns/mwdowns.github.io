@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div class="resume-bodyDiv">
+    <div class="bodyDiv">
 
       <div class="container">
         <div id="header" class="fadeOut">
@@ -23,13 +23,13 @@
         </div>
       </div>
 
-      <div class="resume-container">
+      <div class="container">
         <div class="intro">
           <p>I've had a pretty eclectic work history: teaching Freshman Composition at NC State University, teaching English as a Second Language on Sado Island in Japan, farming Koshihikari rice on that same island, and now I'm looking to do programming.</p>
           <p>If you're interested in a formal resume, you can take a look and download it <span class="pdf"><a href="resume.html">here</a></span>.</p>
         </div>
       </div>
-      <div class="resume-container">
+      <div class="container">
         <p>These are skills I've learned:</p>
         <div class="skills">
           <span title="HTML5"><i class="devicon-html5-plain resume-icon"></i></span>
@@ -59,7 +59,7 @@
         </div>
       </div>
 
-      <div class="resume-container">
+      <div class="container">
         <div class="footer">
           <ul>
             <li><a href="index.html">Home</a> | </li>
@@ -70,5 +70,15 @@
       </div>
 
     </div>
+    
+    <script>
+      $( "#header" )
+        .on("mouseenter", function() {
+          $("#header").removeClass('fadeOut');
+        })
+        .on("mouseleave", function() {
+          $("#header").addClass('fadeOut');
+        });
+    </script>
   </body>
 </html>
