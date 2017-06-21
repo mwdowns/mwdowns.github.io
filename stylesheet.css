@@ -140,24 +140,21 @@ a:hover {
   background-color: #2a7557;
   width: 30%;
   height: 500px;
-  /*border-radius: 20px;
-  border-style: solid;
-  border-color: black;*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .column p {
-  margin: auto 16px;
+  margin: 10px 16px;
 }
 
 .column p:nth-of-type(2) {
   text-align: center;
 }
 
-.column h1, h5 {
-  margin: 5px 16px;
+.column h1 {
+  margin: 8px 16px;
   text-align: center;
 }
 
@@ -212,23 +209,6 @@ html {
 .project3 {
   order: 3;
 }
-
-/*.resume-bodyDiv {
-  background-color: #2a7557;
-  color: white;
-  font-family: 'Rajdhani', sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  margin: 0;
-}
-
-.resume-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}*/
 
 .resume-icon {
   color: white;
