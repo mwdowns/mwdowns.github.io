@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div class="resume-bodyDiv">
+    <div class="bodyDiv">
 
       <div class="container">
         <div id="header" class="fadeOut">
@@ -23,22 +23,23 @@
         </div>
       </div>
 
-      <div class="resume-container">
+      <div class="container">
         <div class="intro">
-          <p>I'm Matthew Downs. I'm currently a student at DigitalCrafts, an accelerated learning program for learning web development.</p>
           <p>I've had a pretty eclectic work history: teaching Freshman Composition at NC State University, teaching English as a Second Language on Sado Island in Japan, farming Koshihikari rice on that same island, and now I'm looking to do programming.</p>
           <p>If you're interested in a formal resume, you can take a look and download it <span class="pdf"><a href="resume.html">here</a></span>.</p>
         </div>
       </div>
-      <div class="resume-container">
+      <div class="container">
         <p>These are skills I've learned:</p>
         <div class="skills">
           <span title="HTML5"><i class="devicon-html5-plain resume-icon"></i></span>
           <span title="CSS3"><i class="devicon-css3-plain resume-icon"></i></span>
+          <span title="WORDPRESS"><i class="devicon-wordpress-plain resume-icon"></i></span>
         </div>
         <div class="skills">
           <span title="PYTHON"><i class="devicon-python-plain resume-icon"></i></span>
           <span title="FLASK"><img class="flask" src="images/flask-logo-white.png" /></span>
+          <span title="PHP"><i class="devicon-php-plain resume-icon"></i></span>
           <span title="POSTGRESQL"><i class="devicon-postgresql-plain resume-icon"></i></span>
         </div>
         <div class="skills">
@@ -56,11 +57,13 @@
           <p>This is something I'm working on teaching myself: </p>
         </div>
         <div class="skills">
-          <span title="SCALA"><img class="scala" src="images/sw_icon_scala.png" /></span>
+          <span title="RUBY"><i class="devicon-ruby-plain resume-icon"></i></span>
+          <span title="GO"><i class="devicon-go-plain resume-icon"></i></span>
+          <span title="VUEJS"><i class="devicon-vuejs-plain resume-icon"></i></span>
         </div>
       </div>
 
-      <div class="resume-container">
+      <div class="container">
         <div class="footer">
           <ul>
             <li><a href="index.html">Home</a> | </li>
@@ -71,5 +74,15 @@
       </div>
 
     </div>
+    
+    <script>
+      $( "#header" )
+        .on("mouseenter", function() {
+          $("#header").removeClass('fadeOut');
+        })
+        .on("mouseleave", function() {
+          $("#header").addClass('fadeOut');
+        });
+    </script>
   </body>
 </html>
