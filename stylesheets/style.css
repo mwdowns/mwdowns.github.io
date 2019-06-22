@@ -1,0 +1,91 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #2a7557;
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto 70% auto;
+  grid-template-rows: auto 50% auto;
+}
+
+.header {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: grid;
+  grid-template-rows: 30% auto;
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+
+.icon-links {
+  display: inline-block;
+}
+
+.icon-links a {
+  color: white;
+  font-size: 1.3em;
+}
+
+.footer {
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: grid;
+  grid-template-rows: auto 30%;
+  align-items: flex-end;
+  justify-items: center;
+}
+
+.navigation-links {
+  grid-row-start: 2;
+  padding-bottom: 5px;
+}
+
+.navigation-links a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightslategrey;
+}
+
+@media only screen 
+  and (max-device-width: 800px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    
+  .fadeOut {
+    animation-name: none;
+  }
+}

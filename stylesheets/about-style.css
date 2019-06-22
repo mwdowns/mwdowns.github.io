@@ -1,0 +1,40 @@
+.content {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: grid;
+  grid-template-rows: 20% 20% 60%;
+  grid-template-areas:
+    "blurb"
+    "resume"
+    "skills";
+  align-items: center;
+  justify-items: center;
+}
+
+.blurb {
+  grid-area: blurb;
+}
+
+.resume {
+  grid-area: resume;
+}
+
+.resume a {
+  color: red;
+  text-decoration: none;
+}
+
+.resume a:hover {
+  color: lightslategrey;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.resume-icon {
+  color: white;
+  font-size: 4em;
+}

@@ -1,0 +1,54 @@
+.content {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: grid;
+  grid-template-rows: 30% 20% 10% 10% 10%;
+  grid-template-areas:
+    "."
+    "name"
+    "about"
+    "projects"
+    "scribbles";
+  align-items: center;
+  justify-items: center;
+}
+
+.name {
+  grid-area: name;
+  align-items: center;
+  justify-items: center;
+  font-size: 4em;
+}
+
+.about {
+  grid-area: about;
+}
+
+.projects {
+  grid-area: projects;
+}
+
+.scribbles {
+  grid-area: scribbles;
+}
+
+.about, .projects, .scribbles {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    
+  .name {
+    font-size: 1.5em
+  }
+
+  .about, .projects, .scribbles {
+    font-size: .9em
+  }
+}

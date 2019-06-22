@@ -1,0 +1,12 @@
+.content {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-areas:
+    "scribbles";
+  align-items: center;
+  justify-items: center;
+}
