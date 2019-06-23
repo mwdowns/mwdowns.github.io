@@ -1,0 +1,14 @@
+@media (max-width: 900px) { 
+    
+  .fadeOut {
+    animation-name: none;
+  }
+
+  .name {
+    font-size: 1.9em
+  }
+
+  .about, .projects, .scribbles {
+    font-size: .9em
+  }
+}
