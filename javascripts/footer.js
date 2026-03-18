@@ -11,11 +11,17 @@ function write_footer() {
       return `
         <div class="footer">
           <div class="navigation-links">
-            <a href="../index.html">home</a> |
-            <a href="projects.html">projects</a> | 
-            <a href="scribbles.html">scribbles</a>
+            <a href="../index.html">home</a>
           </div>
         </div>`
+      // return `
+      //   <div class="footer">
+      //     <div class="navigation-links">
+      //       <a href="../index.html">home</a> |
+      //       <a href="projects.html">projects</a> | 
+      //       <a href="scribbles.html">scribbles</a>
+      //     </div>
+      //   </div>`
     case projects:
       return `
         <div class="footer">
@@ -38,11 +44,17 @@ function write_footer() {
       return `
         <div class="footer">
           <div class="navigation-links">
-            <a href="pages/about.html">about</a> | 
-            <a href="pages/projects.html">projects</a> | 
-            <a href="pages/scribbles.html">scribbles</a>
+            <a href="../index.html">about</a>
           </div>
         </div>`
+      // return `
+      //   <div class="footer">
+      //     <div class="navigation-links">
+      //       <a href="pages/about.html">about</a> | 
+      //       <a href="pages/projects.html">projects</a> | 
+      //       <a href="pages/scribbles.html">scribbles</a>
+      //     </div>
+      //   </div>`
   }
 }
 
