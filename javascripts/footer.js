@@ -44,7 +44,7 @@ function write_footer() {
       return `
         <div class="footer">
           <div class="navigation-links">
-            <a href="../index.html">about</a>
+            <a href="pages/about.html">about</a>
           </div>
         </div>`
       // return `
