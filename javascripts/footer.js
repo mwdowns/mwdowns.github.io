@@ -22,24 +22,24 @@ function write_footer() {
       //       <a href="scribbles.html">scribbles</a>
       //     </div>
       //   </div>`
-    case projects:
-      return `
-        <div class="footer">
-          <div class="navigation-links">
-            <a href="../index.html">home</a> |
-            <a href="about.html">about</a> | 
-            <a href="scribbles.html">scribbles</a>
-          </div>
-        </div>`
-    case(scribbles):
-      return `
-        <div class="footer">
-          <div class="navigation-links">
-            <a href="../index.html">home</a> |
-            <a href="about.html">about</a> | 
-            <a href="projects.html">projects</a>
-          </div>
-        </div>`
+    // case projects:
+    //   return `
+    //     <div class="footer">
+    //       <div class="navigation-links">
+    //         <a href="../index.html">home</a> |
+    //         <a href="about.html">about</a> | 
+    //         <a href="scribbles.html">scribbles</a>
+    //       </div>
+    //     </div>`
+    // case(scribbles):
+    //   return `
+    //     <div class="footer">
+    //       <div class="navigation-links">
+    //         <a href="../index.html">home</a> |
+    //         <a href="about.html">about</a> | 
+    //         <a href="projects.html">projects</a>
+    //       </div>
+    //     </div>`
     default:
       return `
         <div class="footer">
